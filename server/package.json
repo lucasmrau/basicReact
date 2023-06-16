@@ -15,8 +15,12 @@
     "fastify": "^4.17.0"
   },
   "devDependencies": {
+    "@types/node": "^20.3.1",
     "prisma": "^4.14.1",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
-  }
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  } 
 }
